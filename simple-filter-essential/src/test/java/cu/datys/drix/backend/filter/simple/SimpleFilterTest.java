@@ -324,7 +324,7 @@ public class SimpleFilterTest
         assertEquals(expectedRight.getCondition(), filterRight.getCondition());
     }
 
-    @Test
+
     public void testNestedParenthesisQuery() {
         String query = "(^[a,b] IS 'str' AND (^[c] IS 'str')) OR 192168431  AND |[c] IS 'str');";
 

@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>cu.datys.drix.backend.filter</groupId>
+<!--  <groupId>cu.datys.drix.backend.filter</groupId>-->
   <artifactId>simple-filter-elasticsearch</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -10,23 +10,24 @@
   <name>simple-filter-elasticsearch</name>
   <url>http://maven.apache.org</url>
 
+  <parent>
+    <groupId>cu.datys.drix.backend.filter</groupId>
+    <artifactId>simple-filter-develop</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.2</version>
-      <scope>test</scope>
+      <groupId>cu.datys.drix.backend.filter</groupId>
+      <artifactId>simple-filter-essential</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
 
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>1.18.22</version>
-    </dependency>
   </dependencies>
 
 

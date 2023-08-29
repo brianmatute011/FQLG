@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="simple-filter-elasticsearch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="simple-filter-develop" target="1.8" />
+      <module name="simple-filter-elasticsearch" target="1.8" />
       <module name="simple-filter-essential" target="1.8" />
     </bytecodeTargetLevel>
   </component>

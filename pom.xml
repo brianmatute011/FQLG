@@ -37,7 +37,7 @@
 
     <modules>
         <module>simple-filter-essential</module>
-<!--        <module>simple-filter-elasticsearch</module>-->
+        <module>simple-filter-elasticsearch</module>
 <!--        <module>simple-filter-graph</module>-->
     </modules>
 

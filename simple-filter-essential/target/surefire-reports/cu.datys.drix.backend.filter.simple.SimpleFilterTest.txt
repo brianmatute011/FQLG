@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: cu.datys.drix.backend.filter.simple.SimpleFilterTest
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.157 s <<< FAILURE! - in cu.datys.drix.backend.filter.simple.SimpleFilterTest
-testNestedParenthesisQuery(cu.datys.drix.backend.filter.simple.SimpleFilterTest)  Time elapsed: 0.02 s  <<< ERROR!
-cu.datys.drix.backend.filter.simple.exception.SimpleFilterException: Error en la posición 41: mismatched input '192168431' expecting {'(', '*', '[', FIELD_SYMBOL}
-	at cu.datys.drix.backend.filter.simple.SimpleFilterTest.parseQuery(SimpleFilterTest.java:366)
-	at cu.datys.drix.backend.filter.simple.SimpleFilterTest.testNestedParenthesisQuery(SimpleFilterTest.java:341)
-
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.2 s - in cu.datys.drix.backend.filter.simple.SimpleFilterTest
