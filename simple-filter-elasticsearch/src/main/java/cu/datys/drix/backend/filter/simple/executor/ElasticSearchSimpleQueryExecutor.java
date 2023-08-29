@@ -1,7 +1,11 @@
 package cu.datys.drix.backend.filter.simple.executor;
-import cu.datys.drix.backend.filter.simple.model.criteria.UnaryFilter;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
+import org.springframework.data.elasticsearch.core.query.Query;
 
+public class ElasticSearchSimpleQueryExecutor extends ElasticSearchSimpleOperatorExecutor implements SimpleQueryExecutor<Query> {
 
-public class ElasticSearchSimpleQueryExecutor {
-
+    @Override
+    public Query query(String queryString) {
+        return new NativeSearchQueryBuilder().withQuery(this.parseQuery(queryString)).build();
+    }
 }

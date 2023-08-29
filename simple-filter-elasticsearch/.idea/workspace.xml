@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8941e881-8c15-448d-a2d6-1259deccc6ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simple-filter-essential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/src/test/java/cu/datys/drix/backend/filter/simple/SimpleFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/src/test/java/cu/datys/drix/backend/filter/simple/SimpleFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/TEST-cu.datys.drix.backend.filter.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/TEST-cu.datys.drix.backend.filter.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/TEST-cu.datys.drix.backend.filter.simple.SimpleFilterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/TEST-cu.datys.drix.backend.filter.simple.SimpleFilterTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/TEST-cu.datys.drix.backend.filter.simple.builder.SimpleCriteriaBuilderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/TEST-cu.datys.drix.backend.filter.simple.builder.SimpleCriteriaBuilderTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/cu.datys.drix.backend.filter.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/cu.datys.drix.backend.filter.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/cu.datys.drix.backend.filter.simple.SimpleFilterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/surefire-reports/cu.datys.drix.backend.filter.simple.SimpleFilterTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/test-classes/cu/datys/drix/backend/filter/simple/SimpleFilterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/test-classes/cu/datys/drix/backend/filter/simple/SimpleFilterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +62,8 @@
       <workItem from="1693333096690" duration="91000" />
       <workItem from="1693333269676" duration="505000" />
       <workItem from="1693334046929" duration="715000" />
+      <workItem from="1693335406782" duration="48000" />
+      <workItem from="1693335519797" duration="2735000" />
     </task>
     <servers />
   </component>
