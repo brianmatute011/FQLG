@@ -1,2 +1,7 @@
+/home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.java
 /home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/App.java
 /home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.java
+/home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/ElasticSearchSimpleFilterException.java
+/home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/exception/ElasticSearchSimpleFilterException.java
+/home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWithDefaultFields.java
+/home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/MainApp.java

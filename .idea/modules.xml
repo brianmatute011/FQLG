@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/simple-filter-develop.iml" filepath="$PROJECT_DIR$/simple-filter-develop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-filter-elasticsearch/simple-filter-elasticsearch.iml" filepath="$PROJECT_DIR$/simple-filter-elasticsearch/simple-filter-elasticsearch.iml" />
     </modules>
   </component>
 </project>

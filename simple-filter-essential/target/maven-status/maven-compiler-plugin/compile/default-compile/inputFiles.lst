@@ -22,4 +22,5 @@
 /home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-essential/src/main/java/cu/datys/drix/backend/filter/simple/model/value/BooleanValue.java
 /home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-essential/src/main/java/cu/datys/drix/backend/filter/simple/model/operator/Operator.java
 /home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-essential/src/main/java/cu/datys/drix/backend/filter/simple/model/value/Value.java
+/home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-essential/src/main/java/cu/datys/drix/backend/filter/simple/utils/UtilsSFilter.java
 /home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-essential/src/main/java/cu/datys/drix/backend/filter/simple/transpiler/SimpleFilterAST.java

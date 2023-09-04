@@ -4,6 +4,7 @@ import java.util.List;
 
 import cu.datys.drix.backend.filter.simple.exception.SimpleFilterException;
 import cu.datys.drix.backend.filter.simple.model.value.*;
+import cu.datys.drix.backend.filter.simple.utils.UtilsSFilter;
 import org.antlr.v4.runtime.*;
 import cu.datys.drix.backend.filter.simple.model.criteria.SimpleCriteria;
 import cu.datys.drix.backend.filter.simple.model.criteria.BinarySimpleCriteria;
@@ -296,6 +297,14 @@ public abstract class SimpleOperatorExecutor<T> {
         SimpleFilterAST visitor = new  SimpleFilterAST();
         SimpleCriteria filter = (SimpleCriteria) visitor.visit(tree); // Se crea la representación de la query
 
+        System.out.println("[?] Parsing query: " + queryString.toString());
+        if ((filter instanceof UnaryFilter)) {
+            System.out.println(((UnaryFilter) filter).toString());
+        } else {
+            System.out.println(((BinarySimpleCriteria) filter).toString());
+        }
+
+
         return obtainFilter(filter);
     }
 
@@ -306,9 +315,11 @@ public abstract class SimpleOperatorExecutor<T> {
     /* Obtiene la consulta a partir del filtro genérico. Chequea si es una consulta simple o si tiene condicionales*/
     private T obtainFilter(SimpleCriteria criteria) {
         if (criteria instanceof UnaryFilter) {
+            System.out.println("[+] get 'translate()'");
             return translate(criteria);
         }
-        else {  
+        else {
+            System.out.println("[+] get 'condition()'");
             BinarySimpleCriteria simpleFilter = (BinarySimpleCriteria) criteria;
             return condition(simpleFilter.getCondition(), obtainFilter(simpleFilter.getLeft()), obtainFilter(simpleFilter.getRight()
             ));
@@ -319,10 +330,15 @@ public abstract class SimpleOperatorExecutor<T> {
     private T translate(@NonNull SimpleCriteria filter) {
         UnaryFilter unaryFilter = (UnaryFilter) filter;
         if (unaryFilter.getValue().getValue() != null) {
+            System.out.println("[+] Detecting as 'simpleValue'");
             return simpleValue(unaryFilter);
-        } else if (unaryFilter.getValue().getListValue() != null) {
+        }
+        else if (unaryFilter.getValue().getListValue() != null) {
+            System.out.println("[+] Detecting as 'listValue'");
             return listOperators(unaryFilter);
-        } else {
+        }
+        else {
+            System.out.println("[+] Detecting as 'rangeValue'");
             return rangeOperators(unaryFilter);
         }
     }
@@ -332,10 +348,16 @@ public abstract class SimpleOperatorExecutor<T> {
         Value<?> value = filter.getValue();
 
         if (value instanceof TermValue || value instanceof StringValue) {
+            System.out.println("[?] {getValue: TermValue or StringValue} -> " + value.toString());
+            System.out.println("[+] Calling 'stringOperators' method");
             return stringOperators(filter);
         } else if (value instanceof NumberValue || value instanceof DateValue) {
+            System.out.println("[?] {getValue: NumberValue or DateValue} -> " + value.toString());
+            System.out.println("[+] Calling 'numbersOperators' method");
             return numbersOperators(filter);
         } else {
+            System.out.println("[?] {getValue: BoolValue} -> " + value.toString());
+            System.out.println("[+] Calling 'boolOperators' method");
             return boolOperators(filter);
         }
     }
@@ -347,17 +369,30 @@ public abstract class SimpleOperatorExecutor<T> {
         // Igualdad/diferencia
         if (value instanceof TermValue) {
             switch (filter.getOperator()) {
-                case IS:
+                case IS: {
+                    System.out.println("[?] case 'IS' for " + filter.getValue().toString());
+                    System.out.println("[+] Calling 'is' method");
                     return is(filter.getFields(), filter.getValue(), filter.isAll());
-                case IS_NOT:
+                }
+                case IS_NOT: {
+                    System.out.println("[?] case 'IS_NOT' for " + filter.getValue().toString());
+                    System.out.println("[+] Calling 'isNot' method");
                     return isNot(filter.getFields(), filter.getValue(), filter.isAll());
+                }
+
             }
         } else if (value instanceof StringValue) {
             switch (filter.getOperator().getOperator()) {
-                case "==":
+                case "==":{
+                    System.out.println("[?] case '==' for " + filter.getValue().toString());
+                    System.out.println("[+] Calling 'equalTo' method");
                     return equalTo(filter.getFields(), filter.getValue(), filter.isAll());
-                case "!=":
+                }
+                case "!=":{
+                    System.out.println("[?] case '!=' for " + filter.getValue().toString());
+                    System.out.println("[+] Calling 'different' method");
                     return different(filter.getFields(), filter.getValue(), filter.isAll());
+                }
             }
         }
 

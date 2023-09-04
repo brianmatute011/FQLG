@@ -43,4 +43,23 @@ public class UnaryFilter extends SimpleCriteria {
     @Getter
     @Setter
     private boolean all;
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+        builder.append("UnaryFilter{ ");
+        builder.append("operator: ").append(operator).append(", ");
+        builder.append("value: ").append(value).append(", ");
+        builder.append("fields: [");
+        builder.append(fields.get(0));
+
+        for (int fieldIdx = 1; fieldIdx < fields.size(); fieldIdx++)
+            builder.append(", ").append(fields.get(fieldIdx));
+
+        builder.append("], ");
+        builder.append("all: ").append(all);
+        builder.append(" }");
+
+        return builder.toString();
+    }
 }

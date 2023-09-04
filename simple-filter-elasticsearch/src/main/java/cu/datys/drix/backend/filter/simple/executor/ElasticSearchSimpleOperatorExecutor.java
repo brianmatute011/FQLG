@@ -1,5 +1,6 @@
 package cu.datys.drix.backend.filter.simple.executor;
 
+import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,6 +10,7 @@ import cu.datys.drix.backend.filter.simple.model.value.TermValue;
 import lombok.NonNull;
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.Operator;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -21,6 +23,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder condition(Condition condition, QueryBuilder left, QueryBuilder right) {
+        System.out.println("Current info... pass by 'condition' method");
         BoolQueryBuilder queryBuilder = QueryBuilders.boolQuery();
         
         if (condition.equals(Condition.AND)) {
@@ -36,6 +39,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder contains(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'contains' method");
         if (fields.isEmpty()) {
             String query = Arrays.stream(((String) value.getValue()).split(" ")).map(s -> "*" + s + "*").collect(Collectors.joining(" "));
             return QueryBuilders.boolQuery().must(QueryBuilders.queryStringQuery(query));
@@ -46,26 +50,34 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder different(List<String> fields, Value<?> value, boolean all) {
+
+        System.out.println("Current info... pass by 'different' method");
         return QueryBuilders.boolQuery().mustNot(equalTo(fields, value, all));
     }
 
     @Override
     public QueryBuilder doesNotContains(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'doesNotContains' method");
         return QueryBuilders.boolQuery().mustNot(contains(fields, value, all));
     }
 
     @Override
     public QueryBuilder doesNotEndsWith(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'doesNotEndWith' method");
         return QueryBuilders.boolQuery().mustNot(endsWith(fields, value, all));
     }
 
     @Override
     public QueryBuilder doesNotStartsWith(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'doesNotStartWith' method");
+
+
         return QueryBuilders.boolQuery().mustNot(startsWith(fields, value, all));
     }
 
     @Override
     public QueryBuilder endsWith(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'endsWith' method");
         if (fields.isEmpty()) {
             String query = Arrays.stream(((String) value.getValue()).split(" ")).map(s -> "*" + s).collect(Collectors.joining(" "));
             return QueryBuilders.boolQuery().must(QueryBuilders.queryStringQuery(query));
@@ -75,12 +87,28 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder equalTo(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("[?] Current info... pass by 'equalTo' method: ");
+        System.out.println("[?] {value: " + value.getValue() + "}");
+
+        //Print fields in format: [?] {fields: [field1, field2... field3]}
+        //Use StringBuilder for concat fields and set format to message
+        StringBuilder sb = new StringBuilder();
+        sb.append("[?] {fields: [");
+        for (String field: fields)  sb.append(field + " ");
+        sb.append("]}");
+        System.out.println(sb);
+
+        System.out.println("[?] {all: " + all + "}");
+
         Object val = value.getValue();
 
+
         if (!fields.isEmpty()) {
+            System.out.println("[+] pass by matchQuery");
             return fields.stream().map(f -> (QueryBuilder) QueryBuilders.matchQuery(f, val)).
                 reduce(QueryBuilders.boolQuery(), (acc, element) -> all ? ((BoolQueryBuilder)acc).must(element): ((BoolQueryBuilder)acc).should(element));
         } else {
+            System.out.println("[+] pass by multiMatchQuery");
             return all 
                 ? QueryBuilders.multiMatchQuery(val).operator(Operator.AND) 
                 : QueryBuilders.multiMatchQuery(val);
@@ -89,6 +117,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder greaterThan(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'greaterThan' method");
         Object val = value.getValue();
 
         if (!fields.isEmpty()) {
@@ -102,6 +131,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder greaterThanEquals(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'greaterThanEquals' method");
         Object val = value.getValue();
         
         if (!fields.isEmpty()) {
@@ -115,6 +145,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder is(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'is' method");
         if (!fields.isEmpty()) {
             return fields.stream().map(f -> (QueryBuilder) QueryBuilders.regexpQuery(f, value.toString())).
             reduce(QueryBuilders.boolQuery(), (acc, element) -> all ? ((BoolQueryBuilder)acc).must(element): ((BoolQueryBuilder)acc).should(element));
@@ -126,6 +157,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder isNot(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'isNot' method");
         if (fields.isEmpty()) {
             throw new ElasticSearchSimpleFilterException("Error. Debe especificar todos los campos a filtrar para el operador IS_NOT");
         }
@@ -134,6 +166,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder lessThan(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'lessThan' method");
         Object val = value.getValue();
 
         if (!fields.isEmpty()) {
@@ -147,6 +180,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder lessThanEquals(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'lessThaneEquals' method");
         Object val = value.getValue();
 
         if (!fields.isEmpty()) {
@@ -160,6 +194,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder range(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'range' method");
         Object fromVal = value.getFrom();
         Object toVal = value.getTo();
 
@@ -174,6 +209,8 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder rangeOut(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'rangeOut' method");
+
         if (fields.isEmpty()) {
             throw new ElasticSearchSimpleFilterException("Error. Debe especificar todos los campos a filtrar para el operador RANGE_OUT");
         }
@@ -182,6 +219,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder all(List<String> fields, @NonNull Value<?> values, boolean all) {
+        System.out.println("Current info... pass by 'all' method");
         BoolQueryBuilder queryBuilderFields = QueryBuilders.boolQuery();
         BoolQueryBuilder queryBuilderValues = QueryBuilders.boolQuery();
         List<?> listValues = values.getListValue();
@@ -220,6 +258,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder any(List<String> fields, @NonNull Value<?> values, boolean all) {
+        System.out.println("Current info... pass by 'any' method");
         BoolQueryBuilder queryBuilderFields = QueryBuilders.boolQuery();
         BoolQueryBuilder queryBuilderValues = QueryBuilders.boolQuery();
         List<?> listValues = values.getListValue();
@@ -253,6 +292,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder none(List<String> fields, @NonNull Value<?> values, boolean all) {
+        System.out.println("Current info... pass by 'none' method");
         if (!fields.isEmpty()) {
             return QueryBuilders.boolQuery().mustNot(any(fields, values, all));
         } else {
@@ -263,6 +303,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder startsWith(List<String> fields, Value<?> value, boolean all) {
+        System.out.println("Current info... pass by 'startWith' method");
         if (fields.isEmpty()) {
             String query = Arrays.stream(((String) value.getValue()).split(" ")).map(s -> "*" + s + "*").collect(Collectors.joining(" "));
             return QueryBuilders.boolQuery().must(QueryBuilders.queryStringQuery(query));
@@ -272,6 +313,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
     }
     
     protected QueryBuilder wildcardQuery(String query, List<String> fields, boolean all) {
+        System.out.println("Current info... pass by 'wildcardQuery' method");
         if (all) {
             return fields.stream().map(f -> 
                 (QueryBuilder) QueryBuilders.wildcardQuery(f, query)).reduce(QueryBuilders.boolQuery(), (acc, element) -> ((BoolQueryBuilder)acc).must(element));

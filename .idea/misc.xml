@@ -8,6 +8,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/simple-filter-elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/simple-filter-essential/pom.xml" />
       </set>
     </option>

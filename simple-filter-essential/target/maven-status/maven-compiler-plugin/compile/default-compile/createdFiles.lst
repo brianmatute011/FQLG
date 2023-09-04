@@ -32,6 +32,7 @@ cu/datys/drix/backend/filter/simple/parser/listener/SimpleFilterParserErrorListe
 cu/datys/drix/backend/filter/App.class
 cu/datys/drix/backend/filter/simple/parser/SimpleFilterListener.class
 cu/datys/drix/backend/filter/simple/parser/SimpleFilterParser$Simple_valContext.class
+cu/datys/drix/backend/filter/simple/utils/UtilsSFilter.class
 cu/datys/drix/backend/filter/simple/parser/SimpleFilterParser$List_valContext.class
 cu/datys/drix/backend/filter/simple/builder/SimpleCriteriaBuilder.class
 cu/datys/drix/backend/filter/simple/model/operator/Operator.class

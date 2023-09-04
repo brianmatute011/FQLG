@@ -102,7 +102,7 @@ public class SimpleFilterAST extends SimpleFilterBaseVisitor<Object> {
     @Override
     public Value<?> visitValue(SimpleFilterParser.ValueContext ctx) {
         String text = ctx.getText();
-        System.out.print("OMG\n");
+        System.out.println("[?] AST: visitValue: " + text);
 
         if (text.startsWith("[")) { // Es una lista de valores
             List<String> valuesList = Stream.of(text.substring(1, text.length() - 1).replace("\"","").split(",")).
