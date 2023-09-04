@@ -18,6 +18,7 @@ import cu.datys.drix.backend.filter.simple.exception.ElasticSearchSimpleFilterEx
 import cu.datys.drix.backend.filter.simple.exception.SimpleFilterException;
 import cu.datys.drix.backend.filter.simple.model.types.Condition;
 import cu.datys.drix.backend.filter.simple.model.value.Value;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 
 public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<QueryBuilder>{
 
@@ -105,8 +106,9 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
         if (!fields.isEmpty()) {
             System.out.println("[+] pass by matchQuery");
-            return fields.stream().map(f -> (QueryBuilder) QueryBuilders.matchQuery(f, val)).
-                reduce(QueryBuilders.boolQuery(), (acc, element) -> all ? ((BoolQueryBuilder)acc).must(element): ((BoolQueryBuilder)acc).should(element));
+            QueryBuilder queryBuilder = fields.stream().map(f -> (QueryBuilder) QueryBuilders.matchQuery(f, val)).
+                    reduce(QueryBuilders.boolQuery(), (acc, element) -> all ? ((BoolQueryBuilder)acc).must(element): ((BoolQueryBuilder)acc).should(element));
+            return queryBuilder;
         } else {
             System.out.println("[+] pass by multiMatchQuery");
             return all 
