@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8941e881-8c15-448d-a2d6-1259deccc6ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +134,9 @@
       <workItem from="1693851661252" duration="68000" />
       <workItem from="1693852044270" duration="38000" />
       <workItem from="1693852217350" duration="361000" />
-      <workItem from="1693853482058" duration="6071000" />
+      <workItem from="1693853482058" duration="6544000" />
+      <workItem from="1693921490091" duration="1323000" />
+      <workItem from="1693923795849" duration="8968000" />
     </task>
     <servers />
   </component>

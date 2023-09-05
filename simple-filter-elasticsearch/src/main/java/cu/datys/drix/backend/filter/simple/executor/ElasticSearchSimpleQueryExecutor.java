@@ -5,6 +5,8 @@ import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.client.core.CountRequest;
+import org.elasticsearch.client.core.CountResponse;
 import org.elasticsearch.common.bytes.BytesReference;
 import org.elasticsearch.common.unit.TimeValue;
 import org.elasticsearch.common.xcontent.XContentHelper;
@@ -28,7 +30,7 @@ public class ElasticSearchSimpleQueryExecutor extends ElasticSearchSimpleOperato
     }
 
     public RestHighLevelClient initElasticSearchServive () {
-        // Configura el cliente de Elasticsearch
+        // Elastic Client Configuration
         return new RestHighLevelClient(
                 RestClient.builder(new HttpHost("172.16.152.80", 9200, "http"))
         );
@@ -46,7 +48,7 @@ public class ElasticSearchSimpleQueryExecutor extends ElasticSearchSimpleOperato
         return searchQuery;
     }
 
-    public String executeQuery(String indexName, String queryString) throws IOException {
+    public String executeQuerySearch(String indexName, String queryString) throws IOException {
         StringBuilder jsonResponse = new StringBuilder();
         try {
             SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
@@ -59,12 +61,13 @@ public class ElasticSearchSimpleQueryExecutor extends ElasticSearchSimpleOperato
             SearchResponse searchResponse = this.client.search(searchRequest, RequestOptions.DEFAULT);
             jsonResponse.append("[");
 
+
+
             for (SearchHit hit : searchResponse.getHits().getHits()) {
                 jsonResponse.append(hit.getSourceAsString());
                 jsonResponse.append(",");
             }
 
-            // Elimina la última coma
             if (jsonResponse.length() > 1) {
                 jsonResponse.deleteCharAt(jsonResponse.length() - 1);
             }
@@ -77,10 +80,20 @@ public class ElasticSearchSimpleQueryExecutor extends ElasticSearchSimpleOperato
             System.out.println("[!] Error: " + e.getMessage());
             jsonResponse.append("not result");
         }
-        finally {
-            this.client.close();
-        }
         return jsonResponse.toString();
+    }
+
+    public long executeQueryCount(String indexName, String queryString) throws IOException {
+        try {
+            CountRequest countRequest = new CountRequest(indexName);
+            countRequest.query(this.parseQuery(queryString));
+            CountResponse countResponse = this.client.count(countRequest, RequestOptions.DEFAULT);
+            return countResponse.getCount();
+        }
+        catch (IOException e){
+            System.out.println("[!] Error: " + e.getMessage());
+        }
+        return 0;
     }
 
     public void writeJsonResponse(String jsonResponse, String fileName) throws IOException {
@@ -90,5 +103,10 @@ public class ElasticSearchSimpleQueryExecutor extends ElasticSearchSimpleOperato
         catch (IOException e) {
             System.out.println("[!] Error: " + e.getMessage());
         }
+    }
+
+    public void killElasticSearchService() throws IOException {
+        System.out.println("[+] Killing ElasticSearch Service...");
+        this.client.close();
     }
 }
