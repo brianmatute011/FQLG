@@ -30,11 +30,12 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
         if (condition.equals(Condition.AND)) {
             queryBuilder.must(left);
             queryBuilder.must(right);
-            return queryBuilder;
+            System.out.println("Current info... pass by 'condition' method AND");
         }
-
-        queryBuilder.should(left);
-        queryBuilder.should(right);
+        else{
+            queryBuilder.should(left);
+            queryBuilder.should(right);
+        }
         return queryBuilder;
     }
 
@@ -88,29 +89,12 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
 
     @Override
     public QueryBuilder equalTo(List<String> fields, Value<?> value, boolean all) {
-        System.out.println("[?] Current info... pass by 'equalTo' method: ");
-        System.out.println("[?] {value: " + value.getValue() + "}");
-
-        //Print fields in format: [?] {fields: [field1, field2... field3]}
-        //Use StringBuilder for concat fields and set format to message
-        StringBuilder sb = new StringBuilder();
-        sb.append("[?] {fields: [");
-        for (String field: fields)  sb.append(field + " ");
-        sb.append("]}");
-        System.out.println(sb);
-
-        System.out.println("[?] {all: " + all + "}");
-
         Object val = value.getValue();
 
-
         if (!fields.isEmpty()) {
-            System.out.println("[+] pass by matchQuery");
-            QueryBuilder queryBuilder = fields.stream().map(f -> (QueryBuilder) QueryBuilders.matchQuery(f, val)).
+            return fields.stream().map(f -> (QueryBuilder) QueryBuilders.matchQuery(f, val)).
                     reduce(QueryBuilders.boolQuery(), (acc, element) -> all ? ((BoolQueryBuilder)acc).must(element): ((BoolQueryBuilder)acc).should(element));
-            return queryBuilder;
         } else {
-            System.out.println("[+] pass by multiMatchQuery");
             return all 
                 ? QueryBuilders.multiMatchQuery(val).operator(Operator.AND) 
                 : QueryBuilders.multiMatchQuery(val);
@@ -135,7 +119,7 @@ public class ElasticSearchSimpleOperatorExecutor extends SimpleOperatorExecutor<
     public QueryBuilder greaterThanEquals(List<String> fields, Value<?> value, boolean all) {
         System.out.println("Current info... pass by 'greaterThanEquals' method");
         Object val = value.getValue();
-        
+
         if (!fields.isEmpty()) {
             return fields.stream().map(f -> (QueryBuilder) QueryBuilders.rangeQuery(f).gte(val)).
             reduce(QueryBuilders.boolQuery(), (acc, element) -> all ? ((BoolQueryBuilder)acc).must(element): ((BoolQueryBuilder)acc).should(element));

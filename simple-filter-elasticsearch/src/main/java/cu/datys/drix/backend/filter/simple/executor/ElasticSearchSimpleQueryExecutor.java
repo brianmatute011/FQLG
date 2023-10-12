@@ -30,40 +30,64 @@ import java.nio.file.Paths;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ElasticSearchSimpleQueryExecutor extends ElasticSearchSimpleOperatorExecutor implements SimpleQueryExecutor<Query> {
+public class ElasticSearchSimpleQueryExecutor extends ElasticSearchSimpleOperatorExecutor implements SimpleQueryExecutor<SearchResponse> {
     private final RestHighLevelClient client;
+    private final String indexName;
 
-    public ElasticSearchSimpleQueryExecutor() {
+
+    public ElasticSearchSimpleQueryExecutor(String indexName) {
         this.client = this.initElasticSearchServive();
+        this.indexName = indexName;
     }
 
     public RestHighLevelClient initElasticSearchServive () {
         // Elastic Client Configuration
         return new RestHighLevelClient(
-                RestClient.builder(new HttpHost("172.16.152.80", 9200, "http"))
+                RestClient.builder(new HttpHost("172.24.11.80", 9200, "http"))
         );
     }
 
     @Override
-    public Query query(String queryString) {
-        NativeSearchQuery searchQuery =  new NativeSearchQueryBuilder().withQuery(this.parseQuery(queryString)).build();
-        System.out.println("[+] Query Method (fields): ");
-        for (String field: searchQuery.getFields()) {
-            System.out.println(" " + field);
-        }
+    public SearchResponse query(String queryString) {
+        try {
+            SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
+            sourceBuilder.query(this.parseQuery(queryString));
+            sourceBuilder.timeout(TimeValue.timeValueSeconds(5));
 
-//        searchQuery.setIndicesOptions(this.getIndicesOptions());
-        return searchQuery;
+            SearchRequest searchRequest = new SearchRequest(this.indexName);
+            searchRequest.source(sourceBuilder);
+            return this.client.search(searchRequest, RequestOptions.DEFAULT);
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
-    public String executeQuerySearch(String indexName, String queryString) throws IOException {
+    public String queryToString(SearchResponse searchResponse){
+        StringBuilder jsonResponse = new StringBuilder();
+        try {
+            Stream<String> jsonResults = Stream.of(searchResponse.getHits().getHits())
+                    .map(SearchHit::getSourceAsString);
+
+            jsonResponse.append("[").append(jsonResults.collect(Collectors.joining(","))).append("]");
+
+            return jsonResponse.toString();
+        }
+        catch (Exception e){
+            System.out.println("[!] Error: " + e.getMessage());
+            jsonResponse.append("not result");
+        }
+        return jsonResponse.toString();
+    }
+
+    public String executeQuerySearch(String iindexName, String queryString) throws IOException {
         StringBuilder jsonResponse = new StringBuilder();
         try {
             SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
             sourceBuilder.query(this.parseQuery(queryString));
             sourceBuilder.timeout(TimeValue.timeValueSeconds(5));
 
-            SearchRequest searchRequest = new SearchRequest(indexName);
+            SearchRequest searchRequest = new SearchRequest(iindexName);
             searchRequest.source(sourceBuilder);
 
 
@@ -85,10 +109,10 @@ public class ElasticSearchSimpleQueryExecutor extends ElasticSearchSimpleOperato
         return jsonResponse.toString();
     }
 
-    public long executeQueryCount(String indexName, String queryString) throws IOException {
+    public long executeQueryCount(String queryString) throws IOException {
 
         try {
-            CountRequest countRequest = new CountRequest(indexName);
+            CountRequest countRequest = new CountRequest(this.indexName);
             countRequest.query(this.parseQuery(queryString));
             CountResponse countResponse = this.client.count(countRequest, RequestOptions.DEFAULT);
             return countResponse.getCount();

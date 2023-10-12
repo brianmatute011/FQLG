@@ -1,0 +1,761 @@
+[ {
+  "asin" : "B000002L8P",
+  "title" : "Book of Love",
+  "group" : "Music",
+  "salesrank" : 43921,
+  "similar" : [ "B000002LDS", "B00005A0AV", "B000008DNX", "B000002731", "B000000WGM" ],
+  "categories" : [ "|Music[5174]|Styles[301668]|Dance & DJ[7]|General[63709]", "|Music[5174]|Formats[468038]|Today's Deals in Music[287454]|Dance & DJ[883114]|Dance General[883242]|CDs $7 - $10[519562]", "|[265523]|Amazon.com Stores[285080]|Travel[605012]|Categories[3074321]|Bargains[660666]|Music[661012]|Dance & DJ[884682]|Dance General[884696]|CDs $7 - $10[661522]", "|[265523]|Amazon.com Stores[285080]|Amazon.com Outlet[517808]|Categories[526028]|Music Outlet[734368]|Dance & DJ[883932]|Dance General[883946]|CDs $7 - $10[734878]", "|Music[5174]|Formats[468038]|Today's Deals in Music[287454]|Dance & DJ[883114]|Dance General[883242]|All Bargain Titles[883514]", "|[265523]|Amazon.com Stores[285080]|Amazon.com Outlet[517808]|Categories[526028]|Music Outlet[734368]|Dance & DJ[883932]|Dance General[883946]|All Bargain Titles[883948]", "|[265523]|Amazon.com Stores[285080]|Travel[605012]|Categories[3074321]|Bargains[660666]|Music[661012]|Dance & DJ[884682]|Dance General[884696]|All Bargain Titles[884698]" ],
+  "reviews" : {
+    "total" : 23,
+    "downloaded" : 23,
+    "avg rating" : 4.5,
+    "entries" : [ {
+      "date" : "1998-6-10",
+      "cutomer" : "A2PIICBPEDRHDV",
+      "rating" : 5,
+      "votes" : 1,
+      "helpful" : 1
+    }, {
+      "date" : "1998-6-10",
+      "cutomer" : "A3H2H60XZWCME9",
+      "rating" : 5,
+      "votes" : 5,
+      "helpful" : 1
+    }, {
+      "date" : "1998-6-23",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 4,
+      "helpful" : 3
+    }, {
+      "date" : "1999-1-26",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 2,
+      "helpful" : 2
+    }, {
+      "date" : "1999-3-30",
+      "cutomer" : "A25FQ2RV4PXNRG",
+      "rating" : 4,
+      "votes" : 2,
+      "helpful" : 2
+    }, {
+      "date" : "1999-5-8",
+      "cutomer" : "A3J0KOZ91DOVEQ",
+      "rating" : 5,
+      "votes" : 2,
+      "helpful" : 2
+    }, {
+      "date" : "1999-6-7",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 2,
+      "helpful" : 2
+    }, {
+      "date" : "1999-6-10",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 7,
+      "helpful" : 5
+    }, {
+      "date" : "1999-6-11",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 4,
+      "votes" : 1,
+      "helpful" : 1
+    }, {
+      "date" : "1999-7-10",
+      "cutomer" : "A9OVYVTFXJ1D7",
+      "rating" : 5,
+      "votes" : 3,
+      "helpful" : 2
+    }, {
+      "date" : "1999-9-17",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 2,
+      "helpful" : 2
+    }, {
+      "date" : "1999-9-21",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 3,
+      "helpful" : 3
+    }, {
+      "date" : "1999-9-24",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 3,
+      "helpful" : 3
+    }, {
+      "date" : "1999-10-22",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 7,
+      "helpful" : 6
+    }, {
+      "date" : "2000-2-12",
+      "cutomer" : "A21ERILBT463PD",
+      "rating" : 5,
+      "votes" : 5,
+      "helpful" : 5
+    }, {
+      "date" : "2000-8-18",
+      "cutomer" : "AZJMQ5VH698RM",
+      "rating" : 5,
+      "votes" : 0,
+      "helpful" : 0
+    }, {
+      "date" : "2000-10-22",
+      "cutomer" : "A1DXJ5M84IOCFV",
+      "rating" : 5,
+      "votes" : 2,
+      "helpful" : 2
+    }, {
+      "date" : "2001-5-24",
+      "cutomer" : "A1SD6EKW57CU4Y",
+      "rating" : 5,
+      "votes" : 8,
+      "helpful" : 6
+    }, {
+      "date" : "2002-2-25",
+      "cutomer" : "A32TV3GASOEI3G",
+      "rating" : 1,
+      "votes" : 17,
+      "helpful" : 1
+    }, {
+      "date" : "2002-11-5",
+      "cutomer" : "A1OOVLE2KZ6KGA",
+      "rating" : 3,
+      "votes" : 5,
+      "helpful" : 1
+    }, {
+      "date" : "2002-11-21",
+      "cutomer" : "A3TMC7AMWFM68R",
+      "rating" : 5,
+      "votes" : 2,
+      "helpful" : 1
+    }, {
+      "date" : "2004-3-27",
+      "cutomer" : "A3CYFDQZH4H5GL",
+      "rating" : 5,
+      "votes" : 7,
+      "helpful" : 7
+    }, {
+      "date" : "2004-4-30",
+      "cutomer" : "A3A07OPQDWD6Y1",
+      "rating" : 5,
+      "votes" : 1,
+      "helpful" : 1
+    } ]
+  }
+}, {
+  "asin" : "0786926503",
+  "title" : "Book of Vile Darkness (Dungeons & Dragons Supplement)",
+  "group" : "Book",
+  "salesrank" : 83102,
+  "similar" : [ "0786931361", "0786934336", "0786928735", "0786934301", "0786934352" ],
+  "categories" : [ "|Books[283155]|Subjects[1000]|Entertainment[86]|Games[4402]|General[4435]", "|Books[283155]|Subjects[1000]|Entertainment[86]|Games[4402]|Role Playing & Fantasy[4442]|General[4445]", "|Books[283155]|Subjects[1000]|Science Fiction & Fantasy[25]|Gaming[16211]|Dungeons & Dragons[16215]|General[468172]" ],
+  "reviews" : {
+    "total" : 58,
+    "downloaded" : 58,
+    "avg rating" : 3.5,
+    "entries" : [ {
+      "date" : "2002-10-18",
+      "cutomer" : "AWVTNIV6LK0P9",
+      "rating" : 1,
+      "votes" : 23,
+      "helpful" : 10
+    }, {
+      "date" : "2002-10-20",
+      "cutomer" : "A238MHFU91NH5Q",
+      "rating" : 4,
+      "votes" : 74,
+      "helpful" : 69
+    }, {
+      "date" : "2002-10-20",
+      "cutomer" : "A2I31T9WGFF97W",
+      "rating" : 4,
+      "votes" : 13,
+      "helpful" : 4
+    }, {
+      "date" : "2002-10-20",
+      "cutomer" : "A2MHRCMFF9C7UV",
+      "rating" : 3,
+      "votes" : 12,
+      "helpful" : 6
+    }, {
+      "date" : "2002-10-20",
+      "cutomer" : "A61VICZMFN9RU",
+      "rating" : 3,
+      "votes" : 22,
+      "helpful" : 19
+    }, {
+      "date" : "2002-10-22",
+      "cutomer" : "A1LDZEBQEP38CR",
+      "rating" : 5,
+      "votes" : 49,
+      "helpful" : 44
+    }, {
+      "date" : "2002-10-22",
+      "cutomer" : "A3K450IN37A494",
+      "rating" : 3,
+      "votes" : 20,
+      "helpful" : 16
+    }, {
+      "date" : "2002-10-23",
+      "cutomer" : "A3VWVQ0EXQ18O9",
+      "rating" : 4,
+      "votes" : 8,
+      "helpful" : 3
+    }, {
+      "date" : "2002-10-25",
+      "cutomer" : "AKJPO5WQXHP6U",
+      "rating" : 3,
+      "votes" : 13,
+      "helpful" : 2
+    }, {
+      "date" : "2002-10-27",
+      "cutomer" : "A1B9WM9IMJKBKR",
+      "rating" : 4,
+      "votes" : 3,
+      "helpful" : 2
+    }, {
+      "date" : "2002-10-27",
+      "cutomer" : "ARARFRHX47M5U",
+      "rating" : 4,
+      "votes" : 4,
+      "helpful" : 2
+    }, {
+      "date" : "2002-10-28",
+      "cutomer" : "A1YGCMJQRH93N3",
+      "rating" : 2,
+      "votes" : 18,
+      "helpful" : 8
+    }, {
+      "date" : "2002-11-1",
+      "cutomer" : "A3MWYFBZW9TWIG",
+      "rating" : 3,
+      "votes" : 8,
+      "helpful" : 5
+    }, {
+      "date" : "2002-11-3",
+      "cutomer" : "A1L5FM2Q0DW7A0",
+      "rating" : 5,
+      "votes" : 4,
+      "helpful" : 2
+    }, {
+      "date" : "2002-11-3",
+      "cutomer" : "A3CNT9RZN955HM",
+      "rating" : 2,
+      "votes" : 4,
+      "helpful" : 2
+    }, {
+      "date" : "2002-11-4",
+      "cutomer" : "A1TKL04MT3ECTV",
+      "rating" : 1,
+      "votes" : 16,
+      "helpful" : 9
+    }, {
+      "date" : "2002-11-7",
+      "cutomer" : "A8ZRITSECMYG8",
+      "rating" : 1,
+      "votes" : 28,
+      "helpful" : 10
+    }, {
+      "date" : "2002-11-10",
+      "cutomer" : "A1Y7B873VOTAHM",
+      "rating" : 2,
+      "votes" : 10,
+      "helpful" : 7
+    }, {
+      "date" : "2002-11-14",
+      "cutomer" : "ADIUXT8SNY25G",
+      "rating" : 3,
+      "votes" : 4,
+      "helpful" : 2
+    }, {
+      "date" : "2002-11-15",
+      "cutomer" : "A1HSCY90PA6QW0",
+      "rating" : 4,
+      "votes" : 7,
+      "helpful" : 2
+    }, {
+      "date" : "2002-11-17",
+      "cutomer" : "A3ORY38NRNOE7M",
+      "rating" : 2,
+      "votes" : 43,
+      "helpful" : 34
+    }, {
+      "date" : "2002-11-19",
+      "cutomer" : "AUFR7OD1NWE09",
+      "rating" : 3,
+      "votes" : 9,
+      "helpful" : 6
+    }, {
+      "date" : "2002-11-26",
+      "cutomer" : "A1T4OU6FJEDHVX",
+      "rating" : 2,
+      "votes" : 24,
+      "helpful" : 16
+    }, {
+      "date" : "2002-12-3",
+      "cutomer" : "A1EH6EYE2YMSEL",
+      "rating" : 4,
+      "votes" : 8,
+      "helpful" : 4
+    }, {
+      "date" : "2002-12-24",
+      "cutomer" : "A17PX7FERELML3",
+      "rating" : 5,
+      "votes" : 1,
+      "helpful" : 0
+    }, {
+      "date" : "2002-12-28",
+      "cutomer" : "ABGW0HVTZN16G",
+      "rating" : 4,
+      "votes" : 0,
+      "helpful" : 0
+    }, {
+      "date" : "2002-12-30",
+      "cutomer" : "AB1B8EO33OUEC",
+      "rating" : 5,
+      "votes" : 28,
+      "helpful" : 22
+    }, {
+      "date" : "2003-1-2",
+      "cutomer" : "ATFVJGTZHMEJN",
+      "rating" : 2,
+      "votes" : 3,
+      "helpful" : 3
+    }, {
+      "date" : "2003-1-4",
+      "cutomer" : "A195PCNYWRB75",
+      "rating" : 5,
+      "votes" : 8,
+      "helpful" : 1
+    }, {
+      "date" : "2003-1-5",
+      "cutomer" : "A3E2JVK65ITKI8",
+      "rating" : 5,
+      "votes" : 5,
+      "helpful" : 4
+    }, {
+      "date" : "2003-1-14",
+      "cutomer" : "A2CTI82PF8LLRO",
+      "rating" : 3,
+      "votes" : 9,
+      "helpful" : 1
+    }, {
+      "date" : "2003-1-17",
+      "cutomer" : "AQD5Z2M0X060T",
+      "rating" : 2,
+      "votes" : 4,
+      "helpful" : 1
+    }, {
+      "date" : "2003-2-1",
+      "cutomer" : "A2PRUF42Q7ZNBV",
+      "rating" : 3,
+      "votes" : 1,
+      "helpful" : 1
+    }, {
+      "date" : "2003-2-2",
+      "cutomer" : "A15JQ6MX80I7QO",
+      "rating" : 1,
+      "votes" : 3,
+      "helpful" : 1
+    }, {
+      "date" : "2003-2-5",
+      "cutomer" : "A3S2XFMSA6FM6T",
+      "rating" : 4,
+      "votes" : 1,
+      "helpful" : 0
+    }, {
+      "date" : "2003-2-6",
+      "cutomer" : "A2S8HT3TSTABPL",
+      "rating" : 5,
+      "votes" : 4,
+      "helpful" : 3
+    }, {
+      "date" : "2003-2-18",
+      "cutomer" : "A3ORH5V9GN7Z0S",
+      "rating" : 5,
+      "votes" : 4,
+      "helpful" : 3
+    }, {
+      "date" : "2003-2-20",
+      "cutomer" : "A38GZS4FCG9QOZ",
+      "rating" : 3,
+      "votes" : 2,
+      "helpful" : 0
+    }, {
+      "date" : "2003-2-27",
+      "cutomer" : "A1XZZW8XZ8JVCJ",
+      "rating" : 5,
+      "votes" : 6,
+      "helpful" : 5
+    }, {
+      "date" : "2003-3-10",
+      "cutomer" : "A3IP6M7EIXGHCS",
+      "rating" : 5,
+      "votes" : 6,
+      "helpful" : 2
+    }, {
+      "date" : "2003-4-3",
+      "cutomer" : "A1ZIONK4QAYM3H",
+      "rating" : 5,
+      "votes" : 5,
+      "helpful" : 2
+    }, {
+      "date" : "2003-4-3",
+      "cutomer" : "A3UN6WX5RRO2AG",
+      "rating" : 1,
+      "votes" : 64,
+      "helpful" : 9
+    }, {
+      "date" : "2003-5-21",
+      "cutomer" : "A3G1I45IWBET66",
+      "rating" : 3,
+      "votes" : 8,
+      "helpful" : 2
+    }, {
+      "date" : "2003-6-29",
+      "cutomer" : "A2NU3IJYTDIPCI",
+      "rating" : 4,
+      "votes" : 4,
+      "helpful" : 3
+    }, {
+      "date" : "2003-7-1",
+      "cutomer" : "A3MCUCNAJLMCYO",
+      "rating" : 5,
+      "votes" : 7,
+      "helpful" : 6
+    }, {
+      "date" : "2003-7-11",
+      "cutomer" : "A2HT76MIGK5WDN",
+      "rating" : 1,
+      "votes" : 6,
+      "helpful" : 2
+    }, {
+      "date" : "2003-8-9",
+      "cutomer" : "ASJE5MVZJHP2F",
+      "rating" : 5,
+      "votes" : 4,
+      "helpful" : 1
+    }, {
+      "date" : "2003-9-16",
+      "cutomer" : "A3I7YG9VGPIT4F",
+      "rating" : 2,
+      "votes" : 8,
+      "helpful" : 7
+    }, {
+      "date" : "2004-2-3",
+      "cutomer" : "A3HNWCP5OTPH0L",
+      "rating" : 5,
+      "votes" : 2,
+      "helpful" : 1
+    }, {
+      "date" : "2004-2-7",
+      "cutomer" : "A313MKS6M85YFJ",
+      "rating" : 5,
+      "votes" : 7,
+      "helpful" : 1
+    }, {
+      "date" : "2004-2-7",
+      "cutomer" : "A3HNWCP5OTPH0L",
+      "rating" : 5,
+      "votes" : 12,
+      "helpful" : 9
+    }, {
+      "date" : "2004-4-27",
+      "cutomer" : "A1JW1THM8963JT",
+      "rating" : 4,
+      "votes" : 12,
+      "helpful" : 7
+    }, {
+      "date" : "2004-5-1",
+      "cutomer" : "ARPU6P33Q2AWD",
+      "rating" : 2,
+      "votes" : 7,
+      "helpful" : 2
+    }, {
+      "date" : "2004-6-27",
+      "cutomer" : "A1VE30U0L1BNM8",
+      "rating" : 4,
+      "votes" : 4,
+      "helpful" : 3
+    }, {
+      "date" : "2004-12-6",
+      "cutomer" : "A2LD6XZK2YB841",
+      "rating" : 3,
+      "votes" : 6,
+      "helpful" : 0
+    }, {
+      "date" : "2004-12-10",
+      "cutomer" : "AXUU7Q9V7EB9U",
+      "rating" : 4,
+      "votes" : 1,
+      "helpful" : 1
+    }, {
+      "date" : "2005-4-27",
+      "cutomer" : "A1NBWRHXMJ8ZB5",
+      "rating" : 4,
+      "votes" : 0,
+      "helpful" : 0
+    }, {
+      "date" : "2005-6-8",
+      "cutomer" : "A2JP0URFHXP6DO",
+      "rating" : 4,
+      "votes" : 0,
+      "helpful" : 0
+    } ]
+  }
+}, {
+  "asin" : "0191306010",
+  "title" : "Book of Common Prayer and Administration of the Sacraments: According to the Use of the Church of England",
+  "group" : "Book",
+  "salesrank" : 1019304,
+  "similar" : [ ],
+  "categories" : [ "|Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Clergy[12360]|Church Institutions & Organizations[12358]", "|Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Christianity[12290]|Worship & Devotion[12465]|Book of Common Prayer[172816]" ],
+  "reviews" : {
+    "total" : 0,
+    "downloaded" : 0,
+    "avg rating" : 0.0,
+    "entries" : [ ]
+  }
+}, {
+  "asin" : "0766104257",
+  "title" : "Book of the Sacred Magic of Abra-Melin",
+  "group" : "Book",
+  "salesrank" : 760013,
+  "similar" : [ "0875428320", "1585090220", "1567181325" ],
+  "categories" : [ "|Books[283155]|Subjects[1000]|Religion & Spirituality[22]|New Age[12621]|General[12667]", "|Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Occult[12689]|Magic[12710]" ],
+  "reviews" : {
+    "total" : 4,
+    "downloaded" : 4,
+    "avg rating" : 4.0,
+    "entries" : [ {
+      "date" : "2000-3-28",
+      "cutomer" : "A1NG9BL3NQZIBE",
+      "rating" : 5,
+      "votes" : 5,
+      "helpful" : 4
+    }, {
+      "date" : "2000-5-30",
+      "cutomer" : "A3LZXZ35E9P8LA",
+      "rating" : 5,
+      "votes" : 2,
+      "helpful" : 2
+    }, {
+      "date" : "2001-8-13",
+      "cutomer" : "A29WAA0C88XPN7",
+      "rating" : 1,
+      "votes" : 4,
+      "helpful" : 3
+    }, {
+      "date" : "2004-8-9",
+      "cutomer" : "A15YPJLKLZS0MK",
+      "rating" : 5,
+      "votes" : 0,
+      "helpful" : 0
+    } ]
+  }
+}, {
+  "asin" : "0935180273",
+  "title" : "Book of Puka Puka",
+  "group" : "Book",
+  "salesrank" : 492675,
+  "similar" : [ "0918024765", "1574090666" ],
+  "categories" : [ "|Books[283155]|Specialty Stores[504360]|jp-unknown2[1061350]" ],
+  "reviews" : {
+    "total" : 8,
+    "downloaded" : 8,
+    "avg rating" : 4.5,
+    "entries" : [ {
+      "date" : "1999-4-10",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 4,
+      "votes" : 1,
+      "helpful" : 0
+    }, {
+      "date" : "1999-4-24",
+      "cutomer" : "A739XGG3DVGAU",
+      "rating" : 5,
+      "votes" : 4,
+      "helpful" : 3
+    }, {
+      "date" : "1999-6-30",
+      "cutomer" : "A2BW82RCKSMYPR",
+      "rating" : 5,
+      "votes" : 10,
+      "helpful" : 9
+    }, {
+      "date" : "1999-7-12",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 10,
+      "helpful" : 8
+    }, {
+      "date" : "1999-11-18",
+      "cutomer" : "ATVPDKIKX0DER",
+      "rating" : 5,
+      "votes" : 23,
+      "helpful" : 22
+    }, {
+      "date" : "2000-5-2",
+      "cutomer" : "A3H46TAAZYHB3U",
+      "rating" : 4,
+      "votes" : 11,
+      "helpful" : 10
+    }, {
+      "date" : "2002-4-8",
+      "cutomer" : "A3T8T68VS7F4O1",
+      "rating" : 5,
+      "votes" : 6,
+      "helpful" : 4
+    }, {
+      "date" : "2004-2-7",
+      "cutomer" : "AR7BDXZ30Z6SY",
+      "rating" : 4,
+      "votes" : 4,
+      "helpful" : 1
+    } ]
+  }
+}, {
+  "asin" : "158846315X",
+  "title" : "Book of Auspices (Werewolf the Apocalypse)",
+  "group" : "Book",
+  "salesrank" : 501567,
+  "similar" : [ "1588463087", "1588463044", "1588463036", "1588463168", "1588463125" ],
+  "categories" : [ "|Books[283155]|Subjects[1000]|Entertainment[86]|Games[4402]|Role Playing & Fantasy[4442]|General[4445]", "|Books[283155]|Subjects[1000]|Science Fiction & Fantasy[25]|Fantasy[16190]|General[16199]", "|Books[283155]|Subjects[1000]|Science Fiction & Fantasy[25]|Gaming[16211]|Werewolf[16226]" ],
+  "reviews" : {
+    "total" : 0,
+    "downloaded" : 0,
+    "avg rating" : 0.0,
+    "entries" : [ ]
+  }
+}, {
+  "asin" : "1879505606",
+  "title" : "Book on Acting: Improvisation Technique for the Professional Actor in Film, Theater, and Television",
+  "group" : "Book",
+  "salesrank" : 313064,
+  "similar" : [ "0553272950", "081014008X", "0571199992", "0060928190", "0878309837" ],
+  "categories" : [ "|Books[283155]|Subjects[1000]|Arts & Photography[1]|Performing Arts[521000]|Theater[2154]|Acting & Auditioning[2155]" ],
+  "reviews" : {
+    "total" : 3,
+    "downloaded" : 3,
+    "avg rating" : 5.0,
+    "entries" : [ {
+      "date" : "2003-1-5",
+      "cutomer" : "A14OJS0VWMOSWO",
+      "rating" : 5,
+      "votes" : 0,
+      "helpful" : 0
+    }, {
+      "date" : "2003-1-13",
+      "cutomer" : "A1CJBPCNI71QBQ",
+      "rating" : 5,
+      "votes" : 0,
+      "helpful" : 0
+    }, {
+      "date" : "2003-1-27",
+      "cutomer" : "A2VG3VYA3KAVDK",
+      "rating" : 5,
+      "votes" : 4,
+      "helpful" : 4
+    } ]
+  }
+}, {
+  "asin" : "1564591611",
+  "title" : "Book of the Words",
+  "group" : "Book",
+  "salesrank" : 176521,
+  "similar" : [ "1564592456", "1564593266", "1564599957", "1564599922", "1558183051" ],
+  "categories" : [ "|Books[283155]|Subjects[1000]|Nonfiction[53]|Philosophy[11019]|General[11043]", "|Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Other Practices[12761]|Freemasonry[12766]", "|Books[283155]|Subjects[1000]|Religion & Spirituality[22]|Spirituality[12809]|General[12813]" ],
+  "reviews" : {
+    "total" : 0,
+    "downloaded" : 0,
+    "avg rating" : 0.0,
+    "entries" : [ ]
+  }
+}, {
+  "asin" : "B000025ZJM",
+  "title" : "Book of Days",
+  "group" : "Music",
+  "salesrank" : 15508,
+  "similar" : [ "B00006RINB", "B0000261O9", "B00000E563", "B0000260VM", "B00000E56I" ],
+  "categories" : [ "|Music[5174]|Styles[301668]|Classical[85]|General[300358]", "|Music[5174]|Labels[892976]|Amazon.com Label Stores[301122]|ECM Records[301903]|ECM Classical[892978]" ],
+  "reviews" : {
+    "total" : 2,
+    "downloaded" : 2,
+    "avg rating" : 5.0,
+    "entries" : [ {
+      "date" : "2000-11-11",
+      "cutomer" : "AYRPJESM22ERK",
+      "rating" : 5,
+      "votes" : 6,
+      "helpful" : 4
+    }, {
+      "date" : "2001-5-17",
+      "cutomer" : "A3QJXGNKINQT9R",
+      "rating" : 5,
+      "votes" : 7,
+      "helpful" : 6
+    } ]
+  }
+}, {
+  "asin" : "1400050138",
+  "title" : "Book of Ages 30",
+  "group" : "Book",
+  "salesrank" : 81507,
+  "similar" : [ "0767913973", "1572241500", "189212386X", "0809229374", "1579548679" ],
+  "categories" : [ "|Books[283155]|Subjects[1000]|Entertainment[86]|Humor[4456]|General[4466]" ],
+  "reviews" : {
+    "total" : 7,
+    "downloaded" : 7,
+    "avg rating" : 5.0,
+    "entries" : [ {
+      "date" : "2003-10-22",
+      "cutomer" : "A1RJEEV16AG4US",
+      "rating" : 5,
+      "votes" : 3,
+      "helpful" : 3
+    }, {
+      "date" : "2003-10-23",
+      "cutomer" : "A34E90KJ73O7K9",
+      "rating" : 5,
+      "votes" : 4,
+      "helpful" : 3
+    }, {
+      "date" : "2003-10-23",
+      "cutomer" : "A34E90KJ73O7K9",
+      "rating" : 5,
+      "votes" : 2,
+      "helpful" : 0
+    }, {
+      "date" : "2003-10-26",
+      "cutomer" : "A2V5DAFXUT0BCT",
+      "rating" : 5,
+      "votes" : 7,
+      "helpful" : 3
+    }, {
+      "date" : "2003-10-26",
+      "cutomer" : "A37CKCJU8CZ8EB",
+      "rating" : 5,
+      "votes" : 4,
+      "helpful" : 3
+    }, {
+      "date" : "2003-10-30",
+      "cutomer" : "AE18LDQ70YMJF",
+      "rating" : 5,
+      "votes" : 6,
+      "helpful" : 3
+    }, {
+      "date" : "2003-11-16",
+      "cutomer" : "A1J9Z480XPDTOH",
+      "rating" : 5,
+      "votes" : 6,
+      "helpful" : 4
+    } ]
+  }
+} ]

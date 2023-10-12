@@ -7,6 +7,7 @@ public class ElasticSearchSimpleQueryExecutorWithDefaultFields extends ElasticSe
     private List<String> defaultFields;
 
     public ElasticSearchSimpleQueryExecutorWithDefaultFields(List<String> defaultFields) {
+        super("amazon_test_meta");
         this.defaultFields = defaultFields;
     }
 

@@ -5,19 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8941e881-8c15-448d-a2d6-1259deccc6ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/query1_output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/query2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/query2_output.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/query3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/query3_output.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/queries_count.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWithDefaultFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWithDefaultFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cu/datys/drix/backend/filter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cu/datys/drix/backend/filter/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/MainTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/MainTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/MainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/MainTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWithDefaultFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWithDefaultFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simple-filter-elasticsearch-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-filter-elasticsearch-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/cu/datys/drix/backend/filter/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cu/datys/drix/backend/filter/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-essential/target/simple-filter-essential-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-essential/target/simple-filter-essential-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +57,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-elasticsearch&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;3f3ae2a73ca6f9aead8d647cc260b4a0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/br14n/Descargas/RemoteProject/simple-filter-develop/simple-filter-elasticsearch/target/generated-sources/test-query-dataset",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "spring.configuration.checksum": "3f3ae2a73ca6f9aead8d647cc260b4a0"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/generated-sources/test-query-dataset" />
+      <recent name="$PROJECT_DIR$/src/main/java/cu/datys/drix/backend/filter/simple" />
+      <recent name="$PROJECT_DIR$/target/generated-sources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/generated-sources/test-query-dataset" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.AppTest">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cu.datys.drix.backend.filter.MainApp" />
+    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cu.datys.drix.backend.filter.AppTest" />
       <module name="simple-filter-elasticsearch" />
       <extension name="coverage">
         <pattern>
@@ -68,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cu.datys.drix.backend.filter.MainTest" />
+    <configuration name="MainTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cu.datys.drix.backend.filter.simple.MainTest2" />
       <module name="simple-filter-elasticsearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cu.datys.drix.backend.filter.*" />
+          <option name="PATTERN" value="cu.datys.drix.backend.filter.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +120,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.simpleBulkQueryVariation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-filter-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cu.datys.drix.backend.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cu.datys.drix.backend.filter" />
+      <option name="MAIN_CLASS_NAME" value="cu.datys.drix.backend.filter.AppTest" />
+      <option name="METHOD_NAME" value="simpleBulkQueryVariation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.simpleQueryString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="simple-filter-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cu.datys.drix.backend.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cu.datys.drix.backend.filter" />
+      <option name="MAIN_CLASS_NAME" value="cu.datys.drix.backend.filter.AppTest" />
+      <option name="METHOD_NAME" value="simpleQueryString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.MainApp" />
+        <item itemvalue="JUnit.AppTest.simpleQueryString" />
+        <item itemvalue="JUnit.AppTest.simpleBulkQueryVariation" />
+        <item itemvalue="Application.MainTest2" />
+        <item itemvalue="Application.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +220,26 @@
       <workItem from="1693853482058" duration="6544000" />
       <workItem from="1693921490091" duration="1323000" />
       <workItem from="1693923795849" duration="20746000" />
+      <workItem from="1694099139189" duration="3063000" />
+      <workItem from="1695646787427" duration="1105000" />
+      <workItem from="1695654543974" duration="821000" />
+      <workItem from="1695720082251" duration="255000" />
+      <workItem from="1695822486363" duration="432000" />
+      <workItem from="1695825640844" duration="1455000" />
+      <workItem from="1695906911208" duration="936000" />
+      <workItem from="1695910916751" duration="5130000" />
+      <workItem from="1695999884550" duration="326000" />
+      <workItem from="1696003668815" duration="1589000" />
+      <workItem from="1696242105300" duration="11602000" />
+      <workItem from="1696325552717" duration="28000" />
+      <workItem from="1696325899857" duration="2997000" />
+      <workItem from="1696330997193" duration="15273000" />
+      <workItem from="1696348335265" duration="2419000" />
+      <workItem from="1696412326117" duration="15818000" />
+      <workItem from="1696849133610" duration="2060000" />
+      <workItem from="1696858963955" duration="9579000" />
+      <workItem from="1697038684358" duration="4175000" />
+      <workItem from="1697098197121" duration="26406000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,4 @@
+cu/datys/drix/backend/filter/MainTest$1.class
 cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.class
 cu/datys/drix/backend/filter/App.class
 cu/datys/drix/backend/filter/MainApp.class
@@ -5,3 +6,4 @@ cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWit
 cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.class
 cu/datys/drix/backend/filter/simple/ElasticSearchSimpleFilterException.class
 cu/datys/drix/backend/filter/simple/exception/ElasticSearchSimpleFilterException.class
+cu/datys/drix/backend/filter/MainTest.class

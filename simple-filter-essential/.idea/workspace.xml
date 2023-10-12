@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="368e1303-818f-4df2-b37e-ae7056b18618" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/queries_count.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWithDefaultFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/main/java/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWithDefaultFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/test/java/cu/datys/drix/backend/filter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/src/test/java/cu/datys/drix/backend/filter/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleOperatorExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWithDefaultFields.class" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/classes/cu/datys/drix/backend/filter/simple/executor/ElasticSearchSimpleQueryExecutorWithDefaultFields.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/simple-filter-elasticsearch-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/simple-filter-elasticsearch-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/test-classes/cu/datys/drix/backend/filter/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../simple-filter-elasticsearch/target/test-classes/cu/datys/drix/backend/filter/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/simple-filter-essential-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/simple-filter-essential-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +158,26 @@
       <workItem from="1693851730460" duration="261000" />
       <workItem from="1693852089464" duration="97000" />
       <workItem from="1693852581563" duration="899000" />
+      <workItem from="1695648068757" duration="1482000" />
+      <workItem from="1695720346197" duration="1745000" />
+      <workItem from="1695739679095" duration="1127000" />
+      <workItem from="1695808432290" duration="1375000" />
+      <workItem from="1695810577581" duration="82000" />
+      <workItem from="1695811855815" duration="623000" />
+      <workItem from="1695822011269" duration="57000" />
+      <workItem from="1695822170018" duration="235000" />
+      <workItem from="1695822436947" duration="47000" />
+      <workItem from="1695822919904" duration="2719000" />
+      <workItem from="1695830784387" duration="1373000" />
+      <workItem from="1695906816919" duration="90000" />
+      <workItem from="1695907849275" duration="872000" />
+      <workItem from="1695916482623" duration="1437000" />
+      <workItem from="1695979712873" duration="2718000" />
+      <workItem from="1695999842825" duration="39000" />
+      <workItem from="1696000212487" duration="664000" />
+      <workItem from="1696002404370" duration="28000" />
+      <workItem from="1696003335103" duration="331000" />
+      <workItem from="1696348155154" duration="178000" />
     </task>
     <servers />
   </component>
