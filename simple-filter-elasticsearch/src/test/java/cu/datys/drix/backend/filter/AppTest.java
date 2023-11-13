@@ -160,13 +160,13 @@ public class AppTest{
 
     @Test
     public void simpleBulkQueryVariation() throws IOException{
-        String abolutePathTestQuery = System.getProperty("user.dir") + "/target/generated-sources/test-query-dataset";
-        Map<String, Map<String, SearchResponse>> queries = getQueriesMapFromFile(abolutePathTestQuery);
+        String absolutePathTestQuery = System.getProperty("user.dir") + "/target/generated-sources/test-query-dataset";
+        Map<String, Map<String, SearchResponse>> queries = getQueriesMapFromFile(absolutePathTestQuery);
 
-        try (BufferedReader logsSupportPreprocessResulstElastic = new BufferedReader(
-                new FileReader(abolutePathTestQuery + "/support-vector-expected"))){
+        try (BufferedReader logsSupportPreprocessResultsElastic = new BufferedReader(
+                new FileReader(absolutePathTestQuery + "/support-vector-expected"))){
             String lineLogs;
-            while ((lineLogs = logsSupportPreprocessResulstElastic.readLine()) != null){
+            while ((lineLogs = logsSupportPreprocessResultsElastic.readLine()) != null){
                 String[] lineSplit = lineLogs.split(" ");
                 var linkQueryDSlCount = queries.get("query" + lineSplit[0].trim());
                 var queryExpectedApiCounterDocs = Integer.parseInt(lineSplit[2]);
@@ -182,6 +182,8 @@ public class AppTest{
             }
         }
     }
+
+
 
     private Map<String, Map<String, SearchResponse>> getQueriesMapFromFile(String abolutePathTestFileQuery) throws IOException{
         Map<String, Map<String, SearchResponse>> queries = new HashMap<>();
